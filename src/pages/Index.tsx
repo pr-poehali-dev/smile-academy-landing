@@ -3,6 +3,7 @@ import Icon from "@/components/ui/icon";
 
 const CLINIC_IMAGE = "https://cdn.poehali.dev/projects/925c1e3b-a990-4c0b-a8c2-f47b00b7374d/files/ada023b1-7ca7-4b13-a071-915590397877.jpg";
 const DOCTOR_IMAGE = "https://cdn.poehali.dev/projects/925c1e3b-a990-4c0b-a8c2-f47b00b7374d/files/de6e2a4b-1235-4814-873b-e5ccb1f194fe.jpg";
+const LOGO_IMAGE = "https://cdn.poehali.dev/projects/925c1e3b-a990-4c0b-a8c2-f47b00b7374d/files/d456ed6e-1c9b-449c-a1ec-fd5faff38817.jpg";
 
 const services = [
   { icon: "Sparkles", title: "Профессиональная чистка", desc: "Ультразвуковая чистка и Air Flow. Удаление зубного камня и налёта", price: "от 3 500 ₽" },
@@ -91,9 +92,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 glass-card shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-full hero-gradient flex items-center justify-center">
-              <Icon name="Smile" size={18} className="text-white" />
-            </div>
+            <img src={LOGO_IMAGE} alt="Логотип" className="w-10 h-10 rounded-full object-cover shadow-sm" />
             <span className="font-bold text-clinic-navy text-lg tracking-tight">
               Академия <span className="text-gradient">улыбки</span>
             </span>
@@ -635,9 +634,7 @@ export default function Index() {
       <footer className="bg-clinic-navy py-8 border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full hero-gradient flex items-center justify-center">
-              <Icon name="Smile" size={16} className="text-white" />
-            </div>
+            <img src={LOGO_IMAGE} alt="Логотип" className="w-8 h-8 rounded-full object-cover shadow-sm" />
             <span className="font-bold text-white text-base">Академия улыбки</span>
           </div>
           <p className="text-white/40 text-sm text-center">
