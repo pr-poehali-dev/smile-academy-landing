@@ -57,16 +57,16 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				clinic: {
-					blue: '#0EA5E9',
-					'blue-dark': '#0369A1',
-					'blue-light': '#E0F2FE',
-					green: '#10B981',
-					'green-dark': '#047857',
-					'green-light': '#D1FAE5',
-					teal: '#0D9488',
-					'teal-light': '#CCFBF1',
-					navy: '#0C2340',
-					'gray-soft': '#F0F9FF',
+					blue: '#0ABAB5',
+					'blue-dark': '#007A76',
+					'blue-light': '#E0F7F6',
+					green: '#0ABAB5',
+					'green-dark': '#007A76',
+					'green-light': '#CCEFEE',
+					teal: '#0ABAB5',
+					'teal-light': '#E0F7F6',
+					navy: '#0D2B2A',
+					'gray-soft': '#F2FAFA',
 				}
 			},
 			borderRadius: {

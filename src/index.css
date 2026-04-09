@@ -4,33 +4,33 @@
 
 @layer base {
   :root {
-    --background: 204 100% 97%;
-    --foreground: 210 40% 8%;
+    --background: 177 60% 97%;
+    --foreground: 178 60% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 40% 8%;
+    --card-foreground: 178 60% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 40% 8%;
+    --popover-foreground: 178 60% 8%;
 
-    --primary: 199 89% 48%;
+    --primary: 178 90% 38%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 152 76% 36%;
+    --secondary: 178 70% 28%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 204 60% 94%;
-    --muted-foreground: 210 20% 46%;
+    --muted: 177 50% 93%;
+    --muted-foreground: 178 20% 42%;
 
-    --accent: 172 66% 32%;
+    --accent: 178 80% 32%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 204 40% 88%;
-    --input: 204 40% 88%;
-    --ring: 199 89% 48%;
+    --border: 177 40% 86%;
+    --input: 177 40% 86%;
+    --ring: 178 90% 38%;
 
     --radius: 0.75rem;
 
@@ -65,21 +65,21 @@
   }
 
   .gradient-bg {
-    background: linear-gradient(135deg, #0c2340 0%, #0369a1 50%, #047857 100%);
+    background: linear-gradient(135deg, #0d2b2a 0%, #007a76 50%, #0abab5 100%);
   }
 
   .glass-card {
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(12px);
-    border: 1px solid rgba(14, 165, 233, 0.15);
+    border: 1px solid rgba(10, 186, 181, 0.2);
   }
 
   .hero-gradient {
-    background: linear-gradient(135deg, #0c2340 0%, #0369a1 60%, #0d9488 100%);
+    background: linear-gradient(135deg, #0d2b2a 0%, #007a76 55%, #0abab5 100%);
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, #0ea5e9, #10b981);
+    background: linear-gradient(135deg, #0abab5, #00d4cf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -93,7 +93,7 @@
 
   .card-hover:hover {
     transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(14, 165, 233, 0.15);
+    box-shadow: 0 20px 40px rgba(10, 186, 181, 0.18);
   }
 
   .animate-delay-100 {
